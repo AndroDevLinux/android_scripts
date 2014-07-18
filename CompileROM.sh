@@ -32,6 +32,9 @@ if [[ $# = 1 ]]; then
     -g)
       lunch cm_lotus-eng && mka otapackage;
     ;;
+	-n)
+      lunch cm_nicki-userdebug && mka otapackage;
+    ;;
     -rg)
       lunch cm_lotus-userdebug && mka otapackage;
     ;;
