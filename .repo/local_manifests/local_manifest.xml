@@ -12,7 +12,6 @@
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
-  <remove-project name="CyanogenMod/android_external_f2fs-tools" />
   <remove-project name="CyanogenMod/android_external_valgrind" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
@@ -41,8 +40,8 @@
   <project path="device/sony/lotus" name="XperiaSTE/android_device_sony_lotus" revision="cm-11.0" />
   <project path="device/sony/nypon" name="XperiaSTE/android_device_sony_nypon" revision="cm-11.0" />
   <project path="device/sony/pepper" name="XperiaSTE/android_device_sony_pepper" revision="cm-11.0" />
-  <project path="device/sony/montblanc-common" name="XperiaSTE/android_device_sony_montblanc-common" />
-  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" />
+  <project path="device/sony/montblanc-common" name="XperiaSTE/android_device_sony_montblanc-common" revision="cm-11.0" />
+  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" revision="cm-11.0" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="external/valgrind" name="XperiaSTE/android_external_valgrind" />
@@ -52,7 +51,7 @@
   <project path="frameworks/opt/telephony" name="XperiaSTE/android_frameworks_opt_telephony" />
   <project path="hardware/libhardware" name="XperiaSTE/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
-  <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
+  <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" revision="cm-11.0" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
   <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" />
   <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
@@ -62,7 +61,6 @@
   <project path="system/media" name="XperiaSTE/android_system_media" />
   <project path="system/vold" name="XperiaSTE/android_system_vold" />
   <project path="vendor/sony" name="XperiaSTE/android_vendor_sony" />
-  <project path="external/f2fs-tools" name="omnirom/android_external_f2fs-tools" revision="android-4.4" />
   <project path="external/koush/Superuser" name="XperiaSTE/Superuser" />
   <project path="vendor/cm" name="XperiaSTE/android_vendor_cm" />
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" revision="2014.06" />
