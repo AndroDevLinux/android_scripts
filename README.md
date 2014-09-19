@@ -6,7 +6,7 @@ Instructions for building CM11
 
 ### QuickStart:
 
-    git clone https://github.com/XperiaSTE/android_scripts.git -b stable/cm-11.0 cm-11.0
+    git clone https://github.com/AndroDevLinux/android_scripts.git -b stable/cm-11.0 cm-11.0
     cd cm-11.0
     repo init -u git://github.com/CyanogenMod/android -b stable/cm-11.0
     ./Update.sh
